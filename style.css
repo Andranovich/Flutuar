@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    margin: 67px 32px auto auto;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+h1 span {
+    color: #EE24FF;
+}
+
+p {
+    color: #828282;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+p strong {
+    color: #3F3D56;
+}
+
+.offer {
+    width: 626px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    width: 540px;
+}
+
+.line {
+    width: 391px;
+    height: 0px;
+    margin: 64px auto 16px;
+    border: 1px solid #ECEFF2;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3F3D56;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #74728b;
+}
+
+.wave {
+    width: 100%;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;    
+}
